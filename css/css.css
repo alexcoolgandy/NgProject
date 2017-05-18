@@ -1,0 +1,23 @@
+img{
+	width: 100%;
+}
+div.menu {
+	padding: 5%;
+	background: grey;
+	
+	height: 100px;
+}
+div.blockImg {
+	background: yellow;
+	border: 5px solid green;
+	height: auto;
+}
+div.header{
+	height: auto;
+	width: 100%
+}
+
+div.gallery {
+	background: blue;
+	height: auto;
+
