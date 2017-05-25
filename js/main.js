@@ -17,13 +17,13 @@ angular.module('guitar', [])
 		$scope.guitars = [
 				{
 					id: 1,
-					desc: "My first guiatr",
-					src: "http://pngimg.com/upload/guitar_PNG3361.png"
+					desc: "My first audi",
+					src: "image/a3limo.png"
 				},
 				{
 					id: 2,
 					desc: "Cute",
-					src: "http://pngimg.com/upload/guitar_PNG3338.png"
+					src: "image/a3limo.png"
 				}
 			];
 		
