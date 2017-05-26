@@ -1,0 +1,252 @@
+﻿@charset "utf-8";
+
+
+*,
+::after,
+::before {
+    box-sizing: 100% border-box;
+}
+
+.imageGalleryClass {
+    width: 100%;
+    opacity: .99;
+    overflow: hidden;
+    position: relative;
+    border-radius: 3px;
+    cursor: pointer;
+    -webkit-box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 blue;
+    -moz-box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 blue;
+    box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 blue;
+}
+
+    .imageGalleryClass:before {
+        content: '';
+        background: -webkit-linear-gradient(top, transparent 0%, blue 100%);
+        background: linear-gradient(to bottom, transparent 0%, blue 100%);
+        width: 100%;
+        height: 50%;
+        opacity: 1;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        z-index: 2;
+        -webkit-transition-property: top, opacity;
+        transition-property: top, opacity;
+        -webkit-transition-duration: 1s;
+        transition-duration: 0.3s;
+    }
+
+    .imageGalleryClass img {
+        display: block;
+        width: auto; /* ширина картинки */
+        height: auto; /* высота картинки */
+        backface-visibility: hidden;
+        -webkit-backface-visibility: hidden;
+    }
+
+    .imageGalleryClass .caption {
+        width: 100%;
+        color: #fff;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        z-index: 3;
+        text-align: center;
+    }
+
+        .imageGalleryClass .caption span {
+            display: block;
+            opacity: 0;
+            position: relative;
+            top: 100px;
+            -webkit-transition-property: top, opacity;
+            transition-property: top, opacity;
+            -webkit-transition-duration: 2s;
+            transition-duration: 1s;
+            -webkit-transition-delay: 0s;
+            transition-delay: 0s;
+        }
+
+        .imageGalleryClass .caption .title {
+            line-height: 1;
+            font-weight: normal;
+            font-size: 40px;
+            color: orangered;
+        }
+
+        .imageGalleryClass .caption .info {
+            line-height: 1.2;
+            margin-bottom: 10px;
+            font-size: 20px;
+            color: white;
+        }
+
+    .imageGalleryClass:focus:before,
+    .imageGalleryClass:focus span, .imageGalleryClass:hover:before,
+    .imageGalleryClass:hover span {
+        opacity: 1;
+    }
+
+    .imageGalleryClass:focus:before, .imageGalleryClass:hover:before {
+        top: 50%;
+    }
+
+    .imageGalleryClass:focus span, .imageGalleryClass:hover span {
+        top: 0;
+    }
+
+    .imageGalleryClass:focus .title, .imageGalleryClass:hover .title {
+        -webkit-transition-delay: 0.15s;
+        transition-delay: 0.15s;
+    }
+
+    .imageGalleryClass:focus .info, .imageGalleryClass:hover .info {
+        -webkit-transition-delay: 0.25s;
+        transition-delay: 0.25s;
+    }
+
+
+
+img {
+    width: 100%;
+}
+
+div.menu {
+    background: white;
+    height: auto;
+}
+
+div.blockImg {
+    background: #BC8F8F;
+    border: 5px solid green;
+    height: auto;
+}
+
+div.header {
+    height: auto;
+    width: 100%
+}
+
+div.gallery {
+    background: #F5FFFA;
+    height: auto;
+    /* Описание анимации */
+}
+
+#header{
+	text-align:center;
+	width:100%;
+}
+
+#header img{
+	height: auto;
+	width: 100%;
+}
+
+#menu{
+	float: left;
+	height: auto;
+	padding-top: 25px;
+	padding-left: 10px;
+}
+
+#menu h3{
+	font-style: italic;
+	font-family: Arial, Helvetica, Verdana, sans-serif;
+}
+
+select {
+	margin-right: 30px;
+}
+
+#content{
+	width: auto;
+}
+
+.imageGalleryClass img[src$=".jpg"], .imageGalleryClass img[src$=".jpeg"] {
+	border: 5px red solid;
+}
+
+#addNewImg{
+	float: left;
+    height: auto;
+	width: auto;
+	text-align: right;
+	margin-top: 50px;
+	padding-left: 10px;
+}
+
+#preview{
+	margin-left: 30px;
+	float: left;
+	width: auto;
+	word-wrap:break-word;
+}
+
+#preview img{
+	margin: 2px;
+	width: 300px;
+	height: 200px;
+	border: 3px solid #00a8e1
+}
+	
+#footer{
+	padding: 5px;
+	width: 100%;
+	background-color: cornflowerblue;
+}
+
+.ColorForKlimovich {
+	background-color: darkblue;
+}
+
+.ColorForPoka {
+	background-color: green;
+}
+
+.ColorForShwed {
+	background-color: orange;
+}
+
+.imageGalleryClass {
+	text-align: center;
+}
+
+.imageGalleryClass img{
+	margin-top: 10px;
+    width: 100%;
+	height: auto;	
+	border: 3px solid #00a8e1
+}
+
+h1{
+	color: #1a59bf;
+}
+
+#main{
+    position:relative;
+}
+
+#about p {
+    margin-left: 20px; 
+    margin-right: 15px;
+    color:darkblue;
+}
+#about details {
+    margin-left: 20px; 
+    margin-right: 15px;
+    font-style:italic;
+    font-family:Georgia, Times, serif; 
+    color: darkblue; 
+    font-size:20px;
+}
+
+
+
+
+
+
+	
+
+
+
