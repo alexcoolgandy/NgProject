@@ -1,0 +1,38 @@
+<h1 align="center">
+    Добавление новой картинки
+</h1>
+<div id='addNewImg' col-sm-12 col-lg-12 col-md-12 col-ex-12>
+    <p>
+        Введите данные об автомобиле
+        Марка и номер модели:
+        <input type="text" ng-model='newImgName'>
+    </p>
+    <p>
+        Путь к картинке:
+        <input type="text" ng-model='newImgUrl'>
+    </p>
+    <p>
+        Описание авто:
+        <input type="text" ng-model='newImgDescription'>
+    </p>
+    <p>
+        Ваша оценка автомобиля:
+        <label ng-repeat="rate in arrayOfRates">
+            <input type="radio" ng-model="newImgRate.value" ng-checked="newImgRate==rate" ng-value="rate" />
+            {{rate}}
+        </label>
+    </p>
+    <input type="button" ng-click="add()" value="Добавить картинку">
+    <!-- Доделать очистку форм
+        <input type="reset"  value="Очистить">
+    -->
+</div>
+<div id="preview" col-sm-12 col-lg-12 col-md-12 col-ex-12>
+    <p align="center">
+        {{newImgName}}
+        <br>
+        <img ng-src="{{newImgUrl}}" />
+        <br>
+        {{newImgDescription}}
+    </p>
+</div>
