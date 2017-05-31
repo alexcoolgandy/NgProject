@@ -131,12 +131,6 @@ angular.module('AudiCatalog',['ngRoute'])
 	    };
 	}])
 
-
-	.controller('aboutUsController', ['$scope', 'DataImg', function ($scope, DataImg) {
-	    //Контроллер для описания
-
-	}])
-
 	.controller('AddNewImgController', ['$scope', 'DataImg', function ($scope, DataImg) {
 	    //Контроллер для добавления новой картинки
 	    $scope.newImgUrl;
@@ -154,7 +148,7 @@ angular.module('AudiCatalog',['ngRoute'])
 	            name: $scope.newImgName,
 	            src: $scope.newImgUrl,
 	            description: $scope.newImgDescription,
-	            rate: $scope.newImgRate.value
+	            rate: $scope.newImgRate
 	        }
             DataImg.addImg(newObj);
             alert("Картинка успешно добавлена, она будет отображена в галерее! ");

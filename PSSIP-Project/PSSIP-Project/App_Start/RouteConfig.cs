@@ -15,7 +15,7 @@ namespace PSSIP_Project
 
             routes.MapRoute(
                 name: "AUDICAT",
-                url: "Zootopia/{*url}",
+                url: "AudiCat/{*url}",
                 defaults: new {controller = "Home", action = "Index", id = UrlParameter.Optional }
                 );
 

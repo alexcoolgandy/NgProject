@@ -10,7 +10,7 @@
 </div>
 <div ng-repeat="image in imgArray | filter:filterByExtension" class="imageGalleryClass foc col-ex-12 col-lg-4 col-md-6 col-sm-12" border="0" tabindex="1" >
     <p>
-        <img ng-src="{{image.src}}" ng-mouseover="toggleTooltip($index)" ng-mouseout="hideTooltip()" >
+        <img ng-src="{{image.src}}" >
         </br>
         <div class="caption">
             <span class="title">{{image.name}}</span>

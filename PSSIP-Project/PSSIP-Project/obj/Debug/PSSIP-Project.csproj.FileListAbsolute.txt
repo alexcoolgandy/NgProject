@@ -130,3 +130,36 @@ C:\Users\Alex\Desktop\PSSIP образец сервера\PSSIP-Project\PSSIP-Pr
 C:\Users\Alex\Desktop\PSSIP образец сервера\PSSIP-Project\PSSIP-Project\obj\Debug\PSSIP-Project.dll
 C:\Users\Alex\Desktop\PSSIP образец сервера\PSSIP-Project\PSSIP-Project\obj\Debug\PSSIP-Project.pdb
 C:\Users\Alex\Desktop\PSSIP образец сервера\PSSIP-Project\PSSIP-Project\obj\Debug\PSSIP-Project.csprojResolveAssemblyReference.cache
+E:\NgProject\PSSIP-Project\PSSIP-Project\bin\roslyn\csc.exe
+E:\NgProject\PSSIP-Project\PSSIP-Project\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\NgProject\PSSIP-Project\PSSIP-Project\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\NgProject\PSSIP-Project\PSSIP-Project\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\NgProject\PSSIP-Project\PSSIP-Project\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\NgProject\PSSIP-Project\PSSIP-Project\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\NgProject\PSSIP-Project\PSSIP-Project\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\NgProject\PSSIP-Project\PSSIP-Project\bin\roslyn\System.Collections.Immutable.dll
+E:\NgProject\PSSIP-Project\PSSIP-Project\bin\roslyn\System.Reflection.Metadata.dll
+E:\NgProject\PSSIP-Project\PSSIP-Project\bin\roslyn\vbc.exe
+E:\NgProject\PSSIP-Project\PSSIP-Project\bin\roslyn\VBCSCompiler.exe
+E:\NgProject\PSSIP-Project\PSSIP-Project\bin\roslyn\VBCSCompiler.exe.config
+E:\NgProject\PSSIP-Project\PSSIP-Project\bin\PSSIP-Project.dll.config
+E:\NgProject\PSSIP-Project\PSSIP-Project\bin\PSSIP-Project.dll
+E:\NgProject\PSSIP-Project\PSSIP-Project\bin\PSSIP-Project.pdb
+E:\NgProject\PSSIP-Project\PSSIP-Project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\NgProject\PSSIP-Project\PSSIP-Project\bin\Microsoft.Web.Infrastructure.dll
+E:\NgProject\PSSIP-Project\PSSIP-Project\bin\System.Web.Helpers.dll
+E:\NgProject\PSSIP-Project\PSSIP-Project\bin\System.Web.Mvc.dll
+E:\NgProject\PSSIP-Project\PSSIP-Project\bin\System.Web.Razor.dll
+E:\NgProject\PSSIP-Project\PSSIP-Project\bin\System.Web.Webpages.Deployment.dll
+E:\NgProject\PSSIP-Project\PSSIP-Project\bin\System.Web.Webpages.dll
+E:\NgProject\PSSIP-Project\PSSIP-Project\bin\System.Web.Webpages.Razor.dll
+E:\NgProject\PSSIP-Project\PSSIP-Project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\NgProject\PSSIP-Project\PSSIP-Project\bin\System.Web.Razor.xml
+E:\NgProject\PSSIP-Project\PSSIP-Project\bin\System.Web.Webpages.xml
+E:\NgProject\PSSIP-Project\PSSIP-Project\bin\System.Web.Webpages.Deployment.xml
+E:\NgProject\PSSIP-Project\PSSIP-Project\bin\System.Web.Webpages.Razor.xml
+E:\NgProject\PSSIP-Project\PSSIP-Project\bin\System.Web.Helpers.xml
+E:\NgProject\PSSIP-Project\PSSIP-Project\bin\System.Web.Mvc.xml
+E:\NgProject\PSSIP-Project\PSSIP-Project\obj\Debug\PSSIP-Project.csprojResolveAssemblyReference.cache
+E:\NgProject\PSSIP-Project\PSSIP-Project\obj\Debug\PSSIP-Project.dll
+E:\NgProject\PSSIP-Project\PSSIP-Project\obj\Debug\PSSIP-Project.pdb
