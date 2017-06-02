@@ -90,6 +90,18 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Global.asax" />
+    <Content Include="Img\21.png" />
+    <Content Include="Img\22.png" />
+    <Content Include="Img\Chief_Bogo.jpg" />
+    <Content Include="Img\content2.jpg" />
+    <Content Include="Img\foot.png" />
+    <Content Include="Img\footer.png" />
+    <Content Include="Img\header.png" />
+    <Content Include="Img\Judy_Hopps.png" />
+    <Content Include="Img\menu.jpeg" />
+    <Content Include="Img\menu2.png" />
+    <Content Include="Img\Nick_Wilde.png" />
+    <Content Include="Img\Officer_Clawhauser.png" />
     <Content Include="Script\angular-route.min.js" />
     <Content Include="Script\angular.min.js" />
     <Content Include="Script\main.js" />
@@ -102,18 +114,16 @@
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\ImageController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\Image.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\web.config">
-      <SubType>Designer</SubType>
-    </Content>
-    <Content Include="packages.config">
-      <SubType>Designer</SubType>
-    </Content>
+    <Content Include="Views\web.config" />
+    <Content Include="packages.config" />
     <Content Include="Views\_Layout1.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <None Include="Web.Debug.config">
@@ -125,7 +135,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
@@ -143,8 +152,6 @@
           <DevelopmentServerPort>50368</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
           <IISUrl>http://localhost:50368/</IISUrl>
-          <OverrideIISAppRootUrl>True</OverrideIISAppRootUrl>
-          <IISAppRootUrl>http://localhost:50368/</IISAppRootUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

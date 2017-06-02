@@ -14,13 +14,13 @@ namespace PSSIP_Project
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
             routes.MapRoute(
-                name: "AUDICAT",
-                url: "AudiCat/{*url}",
-                defaults: new {controller = "Home", action = "Index", id = UrlParameter.Optional }
+                name: "Zootopia",
+                url: "Zootopia/{*url}",
+                defaults: new {controller = "Home", action = "Index", id = UrlParameter.Optional}
                 );
 
             routes.MapRoute(
-                name: "Unnamed",
+                name: "Default",
                 url: "{controller}/{action}/{id}",
                 defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
             );

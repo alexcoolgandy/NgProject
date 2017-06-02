@@ -1,41 +1,44 @@
 ﻿<!DOCTYPE>
-<html ng-app="AudiCatalog">
+<html ng-app="gallery">
 <head>
     <base href="/">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>AUDICAT</title>
+    
+    
+    <title>ForestAnimals</title>
     <link href="~/Style/style.css" rel="stylesheet" type="text/css"/>
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+    <link href="~/Style/bootstrap.min.angular.css" rel="stylesheet" type="text/css">
+
     <script src="~/Script/angular.min.js"></script>
     <script src="~/Script/angular-route.min.js"></script>
     <script src="~/Script/main.js"></script>
+    
 </head>
 
 <body>
     <div class="container">
-        <div id="header" class="header col-sm-12 col-md-12 col-lg-12 col-ex-12">
-            <a href="/AudiCat/gallery"> <img src="image/HeadJpeg.png"></a>
+        <div id="header" class="col-sm-12 col-md-12 col-lg-12 col-ex-12">
+            <a href="/Forest/gallery" >           
+            <img src="img/header.png"></a>
         </div>
-        <div class="body col-sm-12 col-lg-12 col-md-12 col-ex-12">
-            <div class="menu col-ex-12 col-lg-12 col-md-12 col-sm-12">
-                    <h3>
-                        <a class="btn btn-success" href="/AudiCat/gallery" role="button">На главную</a>
-                        <a class="btn btn-primary" href="/AudiCat/addNewImage" role="button">Добавление картинок</a> 
-                        <a class="btn btn-primary" href="/AudiCat/aboutUs" role="button">Информация о сайте</a>
-                   </h3>
-            </div>
-                <div ng-view id="content" class="content col-ex-12 col-lg-12 col-md-12 col-sm-12">
-                    Пожалуйста подождите, идет загрузка данных. Это займет не больше минуты ....
-                </div>
-                <div id="footer" class="footer col-lg-12 col-md-12 col-sm-12 col-ex-12">
-                    <h3>
-                        Группа 444601:</br>
-                        Климович Александр <span class="ColorForKlimovich">Color: DARKBLUE</span><br>
-                        Пока Виктор <span class="ColorForPoka">Color: GREEN</span><br>
-                        Швед Олег <span class="ColorForSHWED">Color: ORANGE</span>
-                    </h3>
-                </div>
-            </div>
+        <div class="menu col-ex-12 col-lg-12 col-md-12 col-sm-12">
+            <h3>
+                <a class="btn btn-success" href="/Forest/gallery" role="button">На главную</a>
+                <a class="btn btn-primary" href="/Forest/addNewImage" role="button">Добавление картинок</a>
+                <a class="btn btn-primary" href="/Forest/aboutUs" role="button">Информация о сайте</a>
+            </h3>
         </div>
+        <div ng-view id="content" class="col-sm-12 col-md-12 col-lg-12 col-ex-12">
+            Loading..
+        </div>
+        <div id="footer" class="footer col-sm-12 col-md-12 col-lg-12 col-ex-12">
+            <h2>
+                Группа 444601:</br>
+                Климович Александр<span class="KlimovichColor"> BLACKBLUE</span><br>
+                Пока Виктор<span class="PokaColor"> GREEN</span><br>
+                Швед Олег <span class="ShwedColor"> ORANGE</span>
+            </h2>
+        </div>
+    </div>
 </body>
 </html>

@@ -1,36 +1,44 @@
 <h1 align="center">
-    Добавление новой картинки
+    <p>Добавление новой картинки </p>
+
 </h1>
-<div id='addNewImg' class="col-lg-12 col-md-12 col-ex-12">
+
+
+
+<div id='addNewImg' class="col-sm-12 col-md-12 col-lg-6 col-ex-6">
     <p>
-        Введите данные об автомобиле</br>
-        Марка и номер модели:</br>
-        <input type="text" ng-model='newImgName'>
+        Введите имя лесного обитателя:
+        <input type="text" ng-model="img.name">
     </p>
-    <p>
-        Путь к картинке:</br>
-        <input type="text" ng-model='newImgUrl'>
+    <p align="center">
+        Выберите картинку на своем компьютере:
+        <input type="file" fileread="img.data">
     </p>
+    
     <p>
-        Описание авто:</br>
-        <input type="text" ng-model='newImgDescription'>
-    </p>
-    <p>
-        Ваша оценка автомобиля:</br>
+        Введите оценку данной фотографии:
         <label ng-repeat="rate in arrayOfRates">
-            <input type="radio" ng-model="newImgRate.value" ng-checked="newImgRate==rate" ng-value="rate" />
+            <input type="radio" ng-model="img.star" ng-checked="newImgRate==rate" ng-value="rate" />
             {{rate}}
         </label>
     </p>
-    <input type="button" ng-click="add()" value="Добавить картинку">
+    <input type="button" ng-click="addImg()" value="Добавить картинку">
+    
+
+  
+
 </div>
-<div id="preview" class="col-sm-12 col-lg-12 col-md-12 col-ex-12">
+<div id="preview" class="col-sm-12 col-md-12 col-lg-6 col-ex-6">
     <p align="center">
-        {{newImgName}}
+        {{img.name}}
         <br>
-        <img ng-src="{{newImgUrl}}" />
+        <img ng-src="{{img.data}}"/>
         <br>
-        {{newImgDescription}}
-        Рейтинг {{rate}}
+        {{img.desc}}
+        Оценка
+        {{img.star}}
     </p>
 </div>
+
+
+
